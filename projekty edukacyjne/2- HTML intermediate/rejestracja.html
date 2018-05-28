@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularz rejestracyjny</title>
+</head>
+<body>
+
+<h1>Registration form</h1>
+<form>
+	<p></p>
+	<label for="firstName">First name:</label>
+	<input id="firstName" type="text" name="firstName" placeholder="First name" required>
+	<label for="lastName">Last name:</label>
+	<input id="lastName" type="text" name="lastName" placeholder="Last name" required>
+	<p></p>
+	<label for="Male">Male:</label>
+	<input id="Male" type="radio" name="sex" value="Male">
+	<label for="feMale">Female:</label>
+	<input id="feMale" type="radio" name="sex" value="feMale">
+	<label for="Other">Other:</label>
+	<input id="Other" type="radio" name="sex" value="Other">
+	<p></p>
+	<label for="email">Email:</label>
+	<input id="email" type="email" name="email" placeholder="Email" required>
+	<label for="password">Password:</label>
+	<input id="password" type="password" name="password" placeholder="Password" minlength="5" maxlength="10" required>
+	<p></p>
+	<label for="bday">Birthday:</label>
+	<select>
+		<option>Month</option>
+		<option value="July">July</option>
+		<option value="April">April</option>
+		<option value="May">May</option>
+	</select>
+	<select>
+		<option>Day</option>
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+	</select>
+	<select>
+		<option>Year</option>
+		<option>1990</option>
+		<option>1991</option>
+		<option>1992</option>
+	</select>
+	<p></p>
+	<label for="terms">I agree to the terms and conditions:</label>
+	<input id="terms" type="checkbox" name="terms" required>
+
+	<button>Submit</button>
+</form>
+</body>
+</html>
