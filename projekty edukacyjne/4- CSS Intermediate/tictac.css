@@ -1,0 +1,40 @@
+
+table{
+	width: 50%;
+	height: 50%;
+	margin: 0 auto 0 auto;
+}
+
+h1{
+	width: 70px;
+	height: 70px;
+	margin: 0 auto 0 auto;
+}
+
+#LG{
+	border-right: 2px solid;
+	border-bottom: 2px solid; 
+	width: 100px;
+	height: 100px;
+}
+
+#LS{
+	border-right: 2px solid;
+	border-bottom: 2px solid; 
+	width: 100px;
+	height: 100px;
+}
+
+#LP{
+	border-bottom: 2px solid; 
+	width: 100px;
+	height: 100px;
+}
+
+#DL{
+	border-right: 2px solid;
+	width: 100px;
+	height: 100px;
+}
+
+

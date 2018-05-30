@@ -1,0 +1,15 @@
+img{
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+}
+
+h1 {
+	font-family: 'Bowlby One SC';
+	margin-left: 1.6%;
+	font-size: 60px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #F1F1F1;
+	width: 30%;
+	padding-bottom: 20px;
+}
